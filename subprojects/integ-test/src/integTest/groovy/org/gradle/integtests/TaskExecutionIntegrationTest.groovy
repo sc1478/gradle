@@ -626,5 +626,4 @@ task someTask(dependsOn: [someDep, someOtherDep])
         then:
         thrown(CircularReferenceException)
     }
-
 }
